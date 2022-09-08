@@ -1,24 +1,24 @@
 # FurPrefs
 
-##Unity Class save system 
+## Unity Class save system 
 
 
-###Save Data
+### Save Data
 
 ```
 FurPrefs.SaveData(class, id);
 ```
 
-###Load Data
+### Load Data
 
 ```
 var cls =FurPrefs.GetData<Class>(id);
 ```
 
-###Example Usage
+### Example Usage
 
 
-####Class:
+#### Class:
 
 ```
 using System;
@@ -31,7 +31,7 @@ public class ExampleClass
 ```
 
 
-####Save Data:
+#### Save Data:
 
 ```
 public void SaveData(string id,string name,string surname)
@@ -43,7 +43,7 @@ public void SaveData(string id,string name,string surname)
 }
 ```
 
-####Load Data:
+#### Load Data:
 
 ```
 public void GetData(string id)
