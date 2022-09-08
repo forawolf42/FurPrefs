@@ -1,7 +1,7 @@
 ![Animation](https://user-images.githubusercontent.com/76211809/189219376-f28196d0-a687-4727-9885-30008ce36240.gif)
 # FurPrefs
 
-## Unity Class save system 
+## Unity Class Save System 
 
 
 ### Save Data
