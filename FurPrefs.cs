@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 using UnityEngine;
 public class FurPrefs : MonoBehaviour
 {
-   public static void SaveData(ExampleClass Data,string DataId)
+   public static void SaveData<T>(T Data,string DataId)
    {
       string json = JsonConvert.SerializeObject(Data);
       PlayerPrefs.SetString(DataId,json);
